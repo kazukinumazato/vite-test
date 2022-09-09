@@ -1,0 +1,19 @@
+{
+  "name": "modern-application",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server/main.js",
+    "dev": "vite",
+    "build": "vite build client --outDir ../dist",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "chart.js": "^3.9.1",
+    "date-fns": "^2.29.2"
+  }
+}
