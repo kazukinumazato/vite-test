@@ -1,5 +1,5 @@
-import "./style.css";
-import { Chart } from "chart.js/auto";
+import "../style.css";
+import { Chart } from "chart.js";
 
 const ctx = document.getElementById('myChart').getContext('2d');
 const myChart = new Chart(ctx, {
